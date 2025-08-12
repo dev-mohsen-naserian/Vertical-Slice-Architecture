@@ -1,0 +1,7 @@
+create table Item(
+	id int primary key identity,
+	name nvarchar(20),
+	description nvarchar(50),
+	isDelete bit,
+	createTime date
+)

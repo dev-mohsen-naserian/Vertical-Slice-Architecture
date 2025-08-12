@@ -5,7 +5,6 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.RegisterServices();
 #endregion
 var app = builder.Build();
-
-app.MapGet("/", () => "Hello World!");
+app.MapCarter();
 
 app.Run();
